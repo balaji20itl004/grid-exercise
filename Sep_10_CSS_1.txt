@@ -1,0 +1,18 @@
+Transition --> duration 
+
+Translate
+
+scale
+
+rotate
+
+
+0% --> from
+
+10% { }
+
+50% { }
+
+80% {}
+
+100% --> to

@@ -1,0 +1,15 @@
+div{
+    width:100px;
+    height:200px;
+    background-color: blue;
+    transition: width 2s linear ;
+    transform: skew(40deg);
+}
+
+div:hover{
+
+   /* transform: translate(50px,200px); 
+   transform: rotateY(140deg); 
+   transform: scaleX(1.5);*/
+   transform: skew(40deg);
+}

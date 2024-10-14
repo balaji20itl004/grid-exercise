@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 1px solid black;
+            box-shadow: 2px 4px 5px blue;
+            margin: 20px;
+        }
+            #login,#sign{
+                padding: 25px;
+            }
+        
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+    <div id="login">
+        <h3>LOGIN </h3>
+        <form>
+          <P>  USERNAME <input type="text" name="username" placeholder="enter the name" required><br><br></P>
+           <P>EMAIL ID <input type="email" name="email" placeholder="enter the email" required><br><br></P> 
+           <p> PHONE NUMBER <input type="tel" name="number" placeholder="enter the phone number" pattern="[7-9][1]-[0-9][9]" required><br><br></p>
+            <pre>     <input type="submit">          <input type="reset">  </pre>
+        </form> <br>
+            <a href="#"> FORGOT PASSWORD ?</a>
+    </div>
+
+    <div id="sign">
+        <h3>SIGN IN</h3>
+        <p> PHONE NUMBER <input type="tel" name="number" placeholder="enter the phone number" pattern="[7-9][1]-[0-9][9]" required><br><br></p>
+            <input type="submit">
+            <br>
+        </div> 
+
+    </div>
+</body>
+</html>

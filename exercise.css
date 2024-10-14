@@ -1,0 +1,38 @@
+.form{
+display: grid;
+grid-template-rows:repeat(4,1fr)
+}
+
+.name,.date,.from,.to{
+    padding: 10px;
+}
+
+.name input:hover{
+    cursor: pointer;
+    background-color:lightblue;
+    color: white;
+}
+
+.from select:hover{
+    cursor: pointer;
+    background-color: blue;
+    color:white
+}
+
+.to select:hover{
+    cursor: pointer;
+    background-color: blue;
+    color:white
+}
+
+.aadhar input:hover{
+    cursor: pointer;
+    background-color: blue;
+    color:white
+}
+
+.submit input:hover{
+    cursor: pointer;
+   background-color: green;
+   color: white;
+}

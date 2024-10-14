@@ -1,0 +1,18 @@
+.container{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+}
+
+.nature img{
+  width: 100%;
+  height: 100%;
+  border: 1px solid blue;
+}
+
+.nature{
+  margin:40px;
+}
+
+.nature6{
+  grid-column: span 6;
+}

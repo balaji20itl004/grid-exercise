@@ -1,0 +1,10 @@
+span:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+span{
+    display: flex;
+    flex-direction: row;
+}
